@@ -1,0 +1,1 @@
+This repository demonstrates a common SQL error: failing to handle constraint violations (e.g., unique key violations).  The `bug.sql` file shows the problematic code, which attempts to insert duplicate entries. The `bugSolution.sql` file shows the improved version utilizing TRY...CATCH blocks to handle potential errors gracefully.
